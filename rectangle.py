@@ -1,7 +1,7 @@
 import turtle
 
 class Rectangle :
-    def __init__(self,length,height):
+    def __init__(self,length,height): 
         """
         Initialize new rectangle instance.
 
@@ -66,3 +66,10 @@ class Rectangle :
         self.turtle.goto(0,0)
         self.turtle.penup()
         self.has_been_drawn=True
+
+    def __init__(self,x,y): 
+def set_start (self,x,y):
+    my_square= Square(9,8)
+    my_square.set_start(3,2)
+
+

@@ -13,9 +13,9 @@ class Square (Rectangle):
         super(Square, self).set_height(new_length)
         super(Square,self).set_length(new_length)
 
-        
+x= int
+y= int
+S= square(x,y)
+S.set_start(x,y)
 
-    
-       
-       
     
